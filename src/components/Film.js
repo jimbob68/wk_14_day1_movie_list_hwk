@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Film({ name, children }) {
+function Film({ name, url }) {
   return(
     <li>
-      <h4>{ children }</h4>
-      <p>{ name }</p>
+      <a href = {url}>{name}</a>
+      
     </li>
   )
 }
